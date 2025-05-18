@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PoliigonUnityMapper": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\repos\\PoliigonUnityMapper\\Samples\""
+    }
+  }
+}
