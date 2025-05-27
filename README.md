@@ -1,2 +1,6 @@
 # PoliigonUnityMapper
-Poliigon texture packs come with a separate Roughness map, while Unity URP expects Smoothness to be sourced from the alpha channel of metal/albedo map.  This tool is to convert local Poliigon texture maps into the formats that Unity URP expects.
+Poliigon texture packs come with a separate Roughness map, while Unity URP expects Smoothness, the inverse of Roughness, to be sourced from the alpha channel of metal/albedo map.  This tool is to convert local Poliigon texture maps into the formats that Unity URP expects.
+
+It should be noted that the Poliigon [texture guide] (https://help.poliigon.com/en/articles/9612755-poliigon-materials-explained#h_e429ee8ec3) suggests thaat the normal map will need its green channel inverted to work with Unity. However this seems to be incorrect. Unity now expects normal maps to be provided in OpenGL format (as-is) from Poliigon, and the Unity Engine will handle flipping the coordinates to your target platform.
+In the event that you do end up with a normal map that needs the green channel flipping, this can be done in the Unity Import Settings Swizzle by changing the second color channel from G to 1-G.
+The code in this project for flipping the green channel of normals is left as a reference for any other map types that may need similar alterations.
