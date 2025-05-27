@@ -91,7 +91,7 @@ namespace PoliigonUnityMapper
         }
 
 
-        internal static async void ConvertAllFilesInDir(string directoryPath, string outputDirectory)
+        internal static void ConvertAllFilesInDir(string directoryPath, string outputDirectory)
         {
 
             if (!Directory.Exists(directoryPath))
