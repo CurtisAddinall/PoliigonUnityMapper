@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliigonUnityMapper", "PoliigonUnityMapper.csproj", "{08B4EC75-BAB6-6280-6196-2991C3E4E206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliigonUnityMapper", "PoliigonUnityMapper\PoliigonUnityMapper.csproj", "{9607626F-56B8-C5FD-228C-2428A8B40A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliigonUnityMapper.Tests", "PoliigonUnityMapper.Tests\PoliigonUnityMapper.Tests.csproj", "{87F31DB3-4F33-3B31-B864-D32654F84185}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{08B4EC75-BAB6-6280-6196-2991C3E4E206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08B4EC75-BAB6-6280-6196-2991C3E4E206}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08B4EC75-BAB6-6280-6196-2991C3E4E206}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08B4EC75-BAB6-6280-6196-2991C3E4E206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9607626F-56B8-C5FD-228C-2428A8B40A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9607626F-56B8-C5FD-228C-2428A8B40A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9607626F-56B8-C5FD-228C-2428A8B40A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9607626F-56B8-C5FD-228C-2428A8B40A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F31DB3-4F33-3B31-B864-D32654F84185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F31DB3-4F33-3B31-B864-D32654F84185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F31DB3-4F33-3B31-B864-D32654F84185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F31DB3-4F33-3B31-B864-D32654F84185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

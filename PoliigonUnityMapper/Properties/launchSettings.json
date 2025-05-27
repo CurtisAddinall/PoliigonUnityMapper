@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "MetallicConversionBadFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "metal --metallic \"asdf\" --roughness \"aasdf\""
+    },
+    "MetallicConversion": {
+      "commandName": "Project"
+    }
+  }
+}
